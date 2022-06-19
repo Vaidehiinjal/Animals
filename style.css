@@ -1,0 +1,153 @@
+.menu {
+    display: inline-block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap');
+
+body{ 
+    font-family: 'Bodoni Moda', serif;
+    font-size: medium;
+    text-align: center;
+    color: white ;
+    background-color:  rgb(14, 14, 58);
+} 
+
+.image {
+    height: 200px;
+    width: 400px;
+}
+
+.navbar {
+    justify-content: space-between;
+    background-color:rgb(255, 238, 238);
+    height: 100px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ a {
+     text-decoration: none;
+     color: black;
+     font-size: small;
+     padding: 50px;
+ } 
+
+ .image {
+    padding: 0 400px;
+    height: fit-content;
+ }
+
+ #CB2 {
+     height: 400px;
+     width: 500px;
+ }
+
+ .Me {
+    padding: 0 400px;
+    text-align: center;
+ }
+ 
+ .middle {
+    padding: 0 500px;
+     text-align: center;
+ }
+
+
+ .CB {
+    padding: 0 500px;
+     text-align: center;
+ }
+
+ .PB {
+    padding: 0 500px;
+    text-align: center;
+ }
+
+ .VB {
+    padding: 0 500px;
+    text-align: center;
+ }
+
+ .EB {
+    padding: 0 500px;
+     text-align: center;
+ }
+
+ .SB {
+    padding: 0 300px;
+    text-align: center;
+ }
+
+ h5 a {
+     font-size: 20px;
+ }
+
+ .main {
+     margin-top: 100px;
+ }
+
+  .Stop img {
+    width: 50px;
+    animation: stop 10s linear infinite;
+  }
+
+  .Stop {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      position: absolute;
+      bottom: 0;
+  }
+
+  @keyframes Stop{
+       0%{
+        transform: translateY(0);
+        opacity: 0;
+       } 
+       0%{
+        opacity: 1;
+       }
+        0%{
+        opacity: 1;
+       }
+        0%{
+        transform: translateY( -80vh );
+        opacity: 0;
+       }
+       
+       
+}
+
+.Stop img:nth-child(1) {
+    animation-delay: 9s;
+}
+.Stop img:nth-child(2) {
+    animation-delay: 5s;
+}
+.Stop img:nth-child(3) {
+    animation-delay: 3s;
+}
+.Stop img:nth-child(4) {
+    animation-delay: 7s;
+}
+.Stop img:nth-child(5) {
+    animation-delay:1s ;
+}
+.Stop img:nth-child(6) {
+    animation-delay: 6s;
+}
+.Stop img:nth-child(7) {
+    animation-delay: 2s;
+}
+.Stop img:nth-child(8) {
+    animation-delay: 8s;
+}
+.Stop img:nth-child(9) {
+    animation-delay: 4s;
+}
